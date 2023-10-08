@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exemplo web-components</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='src/styles/card.css'>
+    <script src='src/Components/CardNews.js' defer></script>
+    <script src='src/Components/TituloDinamico.js' defer></script>
+</head>
+<body>
+    
+    <div class="app-root">
+        <card-news 
+            autor="Matheus"
+            title="Darth Vader Contrata"
+            link-url="http://www.google.com"
+            content="Darth Vader produra desenvolvedores que saibam trabalhar com Components"
+            srcImagem="../../assets/darth_vader.jpg"
+            altImagem="Foto da notícia" 
+        >
+        </card-news>
+
+        <card-news 
+            title="Armadura de ouro localizada"
+            link-url="http://www.google.com"
+            content="Kiki encontra armadura de ouro desaparecida"
+            altImagem="Foto da notícia" 
+            srcImagem="../../assets/kiki.jpg"
+        >
+        </card-news>
+
+        <card-news 
+            autor="Seu barriga"
+            title="Seu madruga despejado?"
+            link-url="http://www.google.com"
+            content="Senhor Barriga diz: 'Pague o aluguel'"
+        >
+    </card-news>
+
+    </div>
+
+</body>
+</html>
